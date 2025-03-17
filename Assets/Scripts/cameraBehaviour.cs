@@ -12,7 +12,8 @@ public class cameraBehaviour : MonoBehaviour
         player = GameObject.Find("Player").transform;
 
         Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        Cursor.visible = false; 
+        // test
     }
 
     // Update is called once per frame
